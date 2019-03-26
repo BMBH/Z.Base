@@ -1,0 +1,5 @@
+D:\GitHub\Z.Base\src\Z.Base.Utils\bin\Release\Z.Base.Utils.dll
+D:\GitHub\Z.Base\src\Z.Base.Utils\bin\Release\Z.Base.Utils.pdb
+D:\GitHub\Z.Base\src\Z.Base.Utils\obj\Release\Z.Base.Utils.csproj.CoreCompileInputs.cache
+D:\GitHub\Z.Base\src\Z.Base.Utils\obj\Release\Z.Base.Utils.dll
+D:\GitHub\Z.Base\src\Z.Base.Utils\obj\Release\Z.Base.Utils.pdb

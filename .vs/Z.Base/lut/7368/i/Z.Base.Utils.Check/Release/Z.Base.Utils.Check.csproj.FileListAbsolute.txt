@@ -1,0 +1,4 @@
+D:\GitHub\Z.Base\.vs\Z.Base\lut\0\b\src\Z.Base.Utils.Check\bin\Release\Z.Base.Utils.Check.dll
+D:\GitHub\Z.Base\.vs\Z.Base\lut\0\i\Z.Base.Utils.Check\Release\Z.Base.Utils.Check.csproj.CoreCompileInputs.cache
+D:\GitHub\Z.Base\.vs\Z.Base\lut\0\i\Z.Base.Utils.Check\Release\Z.Base.Utils.Check.csproj.CopyComplete
+D:\GitHub\Z.Base\.vs\Z.Base\lut\0\i\Z.Base.Utils.Check\Release\Z.Base.Utils.Check.dll

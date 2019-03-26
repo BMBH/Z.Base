@@ -1,0 +1,5 @@
+D:\GitHub\Z.Base\src\Z.Base.Utils.Check\bin\Release\Z.Base.Utils.Check.dll
+D:\GitHub\Z.Base\src\Z.Base.Utils.Check\bin\Release\Z.Base.Utils.Check.pdb
+D:\GitHub\Z.Base\src\Z.Base.Utils.Check\obj\Release\Z.Base.Utils.Check.csproj.CoreCompileInputs.cache
+D:\GitHub\Z.Base\src\Z.Base.Utils.Check\obj\Release\Z.Base.Utils.Check.dll
+D:\GitHub\Z.Base\src\Z.Base.Utils.Check\obj\Release\Z.Base.Utils.Check.pdb

@@ -1,0 +1,11 @@
+D:\GitHub\Z.Base\.vs\Z.Base\lut\0\b\test\Z.Base.Test.Log\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\GitHub\Z.Base\.vs\Z.Base\lut\0\b\test\Z.Base.Test.Log\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\GitHub\Z.Base\.vs\Z.Base\lut\0\b\test\Z.Base.Test.Log\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\GitHub\Z.Base\.vs\Z.Base\lut\0\b\test\Z.Base.Test.Log\bin\Debug\zh-Hans\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+D:\GitHub\Z.Base\.vs\Z.Base\lut\0\b\test\Z.Base.Test.Log\bin\Debug\zh-Hans\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+D:\GitHub\Z.Base\.vs\Z.Base\lut\0\b\test\Z.Base.Test.Log\bin\Debug\zh-Hans\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+D:\GitHub\Z.Base\.vs\Z.Base\lut\0\b\test\Z.Base.Test.Log\bin\Debug\Z.Base.Test.Log.dll
+D:\GitHub\Z.Base\.vs\Z.Base\lut\0\i\Z.Base.Test.Log\Debug\Z.Base.Test.Log.csprojAssemblyReference.cache
+D:\GitHub\Z.Base\.vs\Z.Base\lut\0\i\Z.Base.Test.Log\Debug\Z.Base.Test.Log.csproj.CoreCompileInputs.cache
+D:\GitHub\Z.Base\.vs\Z.Base\lut\0\i\Z.Base.Test.Log\Debug\Z.Base.Test.Log.csproj.CopyComplete
+D:\GitHub\Z.Base\.vs\Z.Base\lut\0\i\Z.Base.Test.Log\Debug\Z.Base.Test.Log.dll

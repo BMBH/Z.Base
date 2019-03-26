@@ -1,0 +1,15 @@
+D:\GitHub\Z.Base\src\Z.Base\bin\Debug\Z.Base.dll
+D:\GitHub\Z.Base\src\Z.Base\bin\Debug\Z.Base.pdb
+D:\GitHub\Z.Base\src\Z.Base\bin\Debug\Z.Base.Utils.Check.dll
+D:\GitHub\Z.Base\src\Z.Base\bin\Debug\Z.Base.Utils.dll
+D:\GitHub\Z.Base\src\Z.Base\bin\Debug\Z.Base.Utils.Check.pdb
+D:\GitHub\Z.Base\src\Z.Base\bin\Debug\Z.Base.Utils.pdb
+D:\GitHub\Z.Base\src\Z.Base\obj\Debug\Z.Base.csprojAssemblyReference.cache
+D:\GitHub\Z.Base\src\Z.Base\obj\Debug\Z.Base.csproj.CoreCompileInputs.cache
+D:\GitHub\Z.Base\src\Z.Base\obj\Debug\Z.Base.csproj.CopyComplete
+D:\GitHub\Z.Base\src\Z.Base\obj\Debug\Z.Base.dll
+D:\GitHub\Z.Base\src\Z.Base\obj\Debug\Z.Base.pdb
+D:\GitHub\Z.Base\src\Z.Base\bin\Debug\Z.Base.xml
+D:\GitHub\Z.Base\src\Z.Base\bin\Debug\Z.Base.Log.dll
+D:\GitHub\Z.Base\src\Z.Base\bin\Debug\log4net.dll
+D:\GitHub\Z.Base\src\Z.Base\bin\Debug\Z.Base.Log.pdb

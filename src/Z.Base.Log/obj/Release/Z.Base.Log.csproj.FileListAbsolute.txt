@@ -1,0 +1,10 @@
+D:\GitHub\Z.Base\src\Z.Base.Log\bin\Release\Z.Base.Log.dll
+D:\GitHub\Z.Base\src\Z.Base.Log\bin\Release\Z.Base.Log.pdb
+D:\GitHub\Z.Base\src\Z.Base.Log\bin\Release\log4net.dll
+D:\GitHub\Z.Base\src\Z.Base.Log\bin\Release\Z.Base.Utils.dll
+D:\GitHub\Z.Base\src\Z.Base.Log\bin\Release\Z.Base.Utils.pdb
+D:\GitHub\Z.Base\src\Z.Base.Log\obj\Release\Z.Base.Log.csprojAssemblyReference.cache
+D:\GitHub\Z.Base\src\Z.Base.Log\obj\Release\Z.Base.Log.csproj.CoreCompileInputs.cache
+D:\GitHub\Z.Base\src\Z.Base.Log\obj\Release\Z.Base.Log.csproj.CopyComplete
+D:\GitHub\Z.Base\src\Z.Base.Log\obj\Release\Z.Base.Log.dll
+D:\GitHub\Z.Base\src\Z.Base.Log\obj\Release\Z.Base.Log.pdb

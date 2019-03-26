@@ -1,0 +1,5 @@
+D:\GitHub\Z.Base\.vs\Z.Base\lut\0\b\src\Z.Base\bin\Release\Z.Base.dll
+D:\GitHub\Z.Base\.vs\Z.Base\lut\0\i\Z.Base\Release\Z.Base.csprojAssemblyReference.cache
+D:\GitHub\Z.Base\.vs\Z.Base\lut\0\i\Z.Base\Release\Z.Base.csproj.CoreCompileInputs.cache
+D:\GitHub\Z.Base\.vs\Z.Base\lut\0\i\Z.Base\Release\Z.Base.csproj.CopyComplete
+D:\GitHub\Z.Base\.vs\Z.Base\lut\0\i\Z.Base\Release\Z.Base.dll

@@ -6,7 +6,7 @@ using System.Text;
 namespace Z.Base.Log
 {
     /// <summary>
-    /// 日志管理器
+    /// 管理静态的日志队列
     /// </summary>
     /// <remarks>
     /// 作者：北冥冰皇
@@ -16,14 +16,14 @@ namespace Z.Base.Log
     {
         #region private static var
         /// <summary>
-        /// 控制台字符串队列
+        /// 文本队列
         /// </summary>
         private static Queue<string> queue = new Queue<string>();
         #endregion
 
         #region private static properties
         /// <summary>
-        /// 队列空间
+        /// 获取队列空间值
         /// </summary>
         private static int Size
         {
@@ -39,11 +39,11 @@ namespace Z.Base.Log
 
         #region public static function
 
-        #region 信息字符串出列
+        #region 移除并返回位于队列开始处的文本
         /// <summary>
-        /// 信息字符串出列
+        /// 移除并返回位于队列开始处的文本
         /// </summary>
-        /// <returns>返回队列中信息，无信息返回string.Empty</returns>
+        /// <returns>返回队列开始处的文本，无信息返回string.Empty</returns>
         public static string ReadLine()
         {
             lock (LogQueue.queue)
@@ -55,11 +55,11 @@ namespace Z.Base.Log
         }
         #endregion
 
-        #region 信息字符串入列
+        #region 将文本添加到队列结尾处
         /// <summary>
-        /// 信息字符串入列
+        /// 将文本添加到队列结尾处
         /// </summary>
-        /// <param name="txt">信息文本</param>
+        /// <param name="txt">文本</param>
         public static void WriteLine(string txt)
         {
             lock (LogQueue.queue)
@@ -71,19 +71,19 @@ namespace Z.Base.Log
         }
         #endregion
 
-        #region 异常字符串入列
+        #region 将应用程序执行发生的错误对象文本添加到队列结尾处
         /// <summary>
-        /// 异常字符串入列
+        /// 将应用程序执行错误文本添加到队列结尾处
         /// </summary>
-        /// <param name="txt">信息文本</param>
-        /// <param name="ex">异常对象</param>
-        public static void WriteLine(string txt, Exception ex)
+        /// <param name="name">错误名称</param>
+        /// <param name="ex">应用程序执行发生的错误对象</param>
+        public static void WriteLine(string name, Exception ex)
         {
             lock (LogQueue.queue)
             {
                 if (LogQueue.queue.Count >= LogQueue.Size)
                     LogQueue.queue.Dequeue();
-                LogQueue.queue.Enqueue(LogFormat.ErrorStr(txt, ex));
+                LogQueue.queue.Enqueue(LogFormat.ErrorStr(name, ex));
             }
         }
         #endregion

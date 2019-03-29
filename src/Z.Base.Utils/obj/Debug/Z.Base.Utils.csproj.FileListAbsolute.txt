@@ -3,3 +3,4 @@ D:\GitHub\Z.Base\src\Z.Base.Utils\bin\Debug\Z.Base.Utils.dll
 D:\GitHub\Z.Base\src\Z.Base.Utils\bin\Debug\Z.Base.Utils.pdb
 D:\GitHub\Z.Base\src\Z.Base.Utils\obj\Debug\Z.Base.Utils.dll
 D:\GitHub\Z.Base\src\Z.Base.Utils\obj\Debug\Z.Base.Utils.pdb
+D:\GitHub\Z.Base\src\Z.Base.Utils\obj\Debug\Z.Base.Utils.csprojAssemblyReference.cache

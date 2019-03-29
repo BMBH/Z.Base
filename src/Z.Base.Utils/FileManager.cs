@@ -18,9 +18,9 @@ namespace Z.Base.Utils
     {
         #region public static function
 
-        #region 创建基目录文件
+        #region 按 dir 和 fileFullName 创建文件
         /// <summary>
-        /// 创建基目录文件
+        /// 按 dir 和 fileFullName 创建文件
         /// </summary>
         /// <param name="dir">目录</param>
         /// <param name="fileFullName">文件名</param>
@@ -39,9 +39,9 @@ namespace Z.Base.Utils
         }
         #endregion
 
-        #region 创建基目录文件
+        #region 按 dir 和 fileName 和 postfix 创建文件
         /// <summary>
-        /// 创建基目录文件
+        /// 按 dir 和 fileName 和 postfix 创建文件
         /// </summary>
         /// <param name="dir">目录</param>
         /// <param name="fileName">文件名</param>
@@ -61,9 +61,9 @@ namespace Z.Base.Utils
         }
         #endregion
 
-        #region 创建基目录目录
+        #region 按 dirName 的指定创建创建基目录的子目录
         /// <summary>
-        /// 创建基目录目录
+        /// 按 dirName 的指定创建创建基目录的子目录
         /// </summary>
         /// <param name="dirName">目录名称</param>
         /// <returns>目录路径</returns>
@@ -79,9 +79,9 @@ namespace Z.Base.Utils
         }
         #endregion
 
-        #region 创建目录
+        #region 按 directory 的指定创建所有目录和子目录
         /// <summary>
-        /// 创建目录
+        /// 按 directory 的指定创建所有目录和子目录
         /// </summary>
         /// <param name="directory">目录路径</param>
         /// <returns>已存在返回false;创建成功返回true</returns>
@@ -99,9 +99,9 @@ namespace Z.Base.Utils
         }
         #endregion
 
-        #region 创建文件
+        #region 按 filePath 创建文件
         /// <summary>
-        /// 创建文件
+        /// 按 filePath 创建文件
         /// </summary>
         /// <param name="filePath">文件路径</param>
         /// <returns>已存在返回false;创建成功返回true</returns>
@@ -123,9 +123,9 @@ namespace Z.Base.Utils
         }
         #endregion
 
-        #region 应用程序基目录
+        #region 获取应用程序基目录
         /// <summary>
-        /// 应用程序基目录
+        /// 获取应用程序基目录
         /// </summary>
         /// <returns>返回基目录，不带符号“\”</returns>
         public static string BaseDirectory()

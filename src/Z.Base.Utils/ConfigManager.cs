@@ -18,13 +18,13 @@ namespace Z.Base.Utils
     {
         #region public static function
 
-        #region 字符串值
+        #region 按键获取应用程序设置的文本
         /// <summary>
-        /// 字符串值
+        /// 按键获取应用程序设置的文本
         /// </summary>
         /// <param name="key">关键字</param>
-        /// <param name="config">config配置文件，默认App.config</param>
-        /// <returns>字符串值</returns>
+        /// <param name="config">config配置文件，默认null</param>
+        /// <returns>文本</returns>
         public static string StringVal(string key, string config = null)
         {
             if (string.IsNullOrEmpty(key))
@@ -39,13 +39,13 @@ namespace Z.Base.Utils
         }
         #endregion
 
-        #region 布尔型值
+        #region 按键获取应用程序设置的布尔值
         /// <summary>
-        /// 布尔型值
+        /// 按键获取应用程序设置的布尔值
         /// </summary>
         /// <param name="key">关键字</param>
-        /// <param name="config">config配置文件，默认App.config</param>
-        /// <returns>布尔型值</returns>
+        /// <param name="config">config配置文件，默认null</param>
+        /// <returns>布尔值</returns>
         public static bool BoolVal(string key, string config = null)
         {
             string val = StringVal(key, config);
@@ -61,13 +61,13 @@ namespace Z.Base.Utils
         }
         #endregion
 
-        #region 整型值
+        #region 按键获取应用程序设置的整数
         /// <summary>
-        /// 整型值
+        /// 按键获取应用程序设置的整数
         /// </summary>
         /// <param name="key">关键字</param>
-        /// <param name="config">config配置文件，默认App.config</param>
-        /// <returns>整型值</returns>
+        /// <param name="config">config配置文件，默认null</param>
+        /// <returns>整数</returns>
         public static int IntVal(string key, string config = null)
         {
             string val = StringVal(key, config);
@@ -83,13 +83,13 @@ namespace Z.Base.Utils
         }
         #endregion
 
-        #region Float值
+        #region 按键获取应用程序设置的单精度浮点数值
         /// <summary>
-        /// Float值
+        /// 按键获取应用程序设置的单精度浮点数值
         /// </summary>
         /// <param name="key">关键字</param>
-        /// <param name="config">config配置文件，默认App.config</param>
-        /// <returns>Float值</returns>
+        /// <param name="config">config配置文件，默认null</param>
+        /// <returns>单精度浮点数值</returns>
         public static float FloatVal(string key, string config = null)
         {
             string val = StringVal(key, config);
@@ -109,13 +109,13 @@ namespace Z.Base.Utils
 
         #region private static function
 
-        #region 应用程序配置文件
+        #region 适用于特定计算机、应用程序或资源的配置文件
         /// <summary>
-        /// 应用程序配置文件
+        /// 适用于特定计算机、应用程序或资源的配置文件
         /// </summary>
         /// <param name="fileName">文件名称</param>
-        /// <param name="dir">路径</param>
-        /// <returns></returns>
+        /// <param name="dir">路径，默认""</param>
+        /// <returns>Configuration对象</returns>
         private static Configuration Configuration(string fileName, string dir = "")
         {
             if (string.IsNullOrEmpty(fileName) || dir == null)

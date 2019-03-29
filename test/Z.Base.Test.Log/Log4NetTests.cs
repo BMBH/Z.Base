@@ -75,7 +75,7 @@ namespace Z.Base.Test.Log
         [TestMethod()]
         public void InitLog4NetTest()
         {
-            Log4Net.InitLog4Net();
+            Log4Net.LoadConfig();
             //Assert.Inconclusive("无法验证不返回值的方法。");
         }
         #endregion

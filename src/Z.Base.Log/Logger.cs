@@ -8,7 +8,7 @@ namespace Z.Base.Log
 {
 
     /// <summary>
-    /// 日志类
+    /// 提供按等级记录日志的静态方法
     /// </summary>
     /// <remarks>
     /// 作者：北冥冰皇
@@ -19,7 +19,7 @@ namespace Z.Base.Log
     {
         #region  private enum 
         /// <summary>
-        /// 日志级别
+        /// 日志等级
         /// 由低到高：ALL,DEBUG,INFO,WARN,ERROR,FATAL,None
         /// </summary>
         private enum LogLevel
@@ -56,30 +56,30 @@ namespace Z.Base.Log
         #endregion
 
         /// <summary>
-        /// 日志锁
+        /// 日志文件互斥锁对象
         /// </summary>
         private static object log_lock = new object();
 
         #region private const
         /// <summary>
-        /// 默认文件夹，如果配置文件获取错误则使用该常量
+        /// 默认文件夹文本，如果配置文件获取错误则使用该常量
         /// </summary>
         private const string DEFAULT_DIRECTORY = "Log";
         /// <summary>
-        /// 默认时间格式，如果配置文件获取错误则使用该常量
+        /// 默认时间格式文本，如果配置文件获取错误则使用该常量
         /// </summary>
         private const string DEFAULT_DATE_FORMAT = "yyyy-MM-dd";
         /// <summary>
-        /// 默认文件名后缀，如果配置文件获取错误则使用该常量
+        /// 默认文件名后缀文本，如果配置文件获取错误则使用该常量
         /// </summary>
         private const string DEFAULT_POSTFIX = "txt";
         #endregion
 
         #region private static properties
 
-        #region 配置文件夹
+        #region 获取配置文件夹文本
         /// <summary>
-        /// 配置文件夹
+        /// 获取配置文件夹文本
         /// </summary>
         private static string DefaultDir
         {
@@ -93,9 +93,9 @@ namespace Z.Base.Log
         }
         #endregion
 
-        #region 配置时间格式
+        #region 获取配置时间格式文本
         /// <summary>
-        /// 配置时间格式
+        /// 获取配置时间格式文本
         /// </summary>
         private static string DateFormat
         {
@@ -109,9 +109,9 @@ namespace Z.Base.Log
         }
         #endregion
 
-        #region 配置文件后缀
+        #region 获取配置文件后缀文本
         /// <summary>
-        /// 配置文件后缀
+        /// 获取配置文件后缀文本
         /// </summary>
         private static string Postfix
         {
@@ -125,9 +125,9 @@ namespace Z.Base.Log
         }
         #endregion
 
-        #region 配置日志级别
+        #region 获取配置日志等级
         /// <summary>
-        /// 配置日志级别
+        /// 获取配置日志等级
         /// </summary>
         private static LogLevel Level
         {
@@ -145,12 +145,12 @@ namespace Z.Base.Log
 
         #region public static function
 
-        #region ALL级别日志
+        #region 按ALL级别记录日志
         /// <summary>
-        /// ALL级别日志
+        /// 按ALL级别记录日志
         /// </summary>
-        /// <param name="text">文本</param>
-        /// <param name="file">文件名:可以为空，默认使用日期格式</param>
+        /// <param name="text">日志文本</param>
+        /// <param name="file">文件名文本:可以为空，默认使用日期格式</param>
         /// <param name="dir">文件夹名称:可以为空，默认使用配置文件设置</param>
         /// <returns>返回写入结果，否则返回false</returns>
         public static bool All(string text, string file = null, string dir = null)
@@ -159,12 +159,12 @@ namespace Z.Base.Log
         }
         #endregion
 
-        #region DEBUG级别日志
+        #region 按DEBUG级别记录日志
         /// <summary>
-        /// DEBUG级别日志
+        /// 按DEBUG级别记录日志
         /// </summary>
-        /// <param name="text">文本</param>
-        /// <param name="file">文件名:可以为空，默认使用日期格式</param>
+        /// <param name="text">日志文本</param>
+        /// <param name="file">文件名文本:可以为空，默认使用日期格式</param>
         /// <param name="files">文件夹名称:可以为空，默认使用配置文件设置</param>
         /// <returns>返回写入结果，否则返回false</returns>
         public static bool Debug(string text, string file = null, string dir = null)
@@ -173,12 +173,12 @@ namespace Z.Base.Log
         }
         #endregion
 
-        #region INFO级别日志
+        #region 按INFO级别记录日志
         /// <summary>
-        /// INFO级别日志
+        /// 按INFO级别记录日志
         /// </summary>
-        /// <param name="text">文本</param>
-        /// <param name="file">文件名:可以为空，默认使用日期格式</param>
+        /// <param name="text">日志文本</param>
+        /// <param name="file">文件名文本:可以为空，默认使用日期格式</param>
         /// <param name="dir">文件夹名称:可以为空，默认使用配置文件设置</param>
         /// <returns>返回写入结果，否则返回false</returns>
         public static bool Info(string text, string file = null, string dir = null)
@@ -187,12 +187,12 @@ namespace Z.Base.Log
         }
         #endregion
 
-        #region WARN级别日志
+        #region 按WARN级别记录日志
         /// <summary>
-        /// WARN级别日志
+        /// 按WARN级别记录日志
         /// </summary>
-        /// <param name="text">文本</param>
-        /// <param name="file">文件名:可以为空，默认使用日期格式</param>
+        /// <param name="text">日志文本</param>
+        /// <param name="file">文件名文本:可以为空，默认使用日期格式</param>
         /// <param name="dir">文件夹名称:可以为空，默认使用配置文件设置</param>
         /// <returns>返回写入结果，否则返回false</returns>
         public static bool Warn(string text, string file, string dir)
@@ -201,12 +201,12 @@ namespace Z.Base.Log
         }
         #endregion
 
-        #region ERROR级别日志
+        #region 按ERROR级别记录日志
         /// <summary>
-        /// ERROR级别日志
+        /// 按ERROR级别记录日志
         /// </summary>
-        /// <param name="text">文本</param>
-        /// <param name="file">文件名:可以为空，默认使用日期格式</param>
+        /// <param name="text">日志文本</param>
+        /// <param name="file">文件名文本:可以为空，默认使用日期格式</param>
         /// <param name="dir">文件夹名称:可以为空，默认使用配置文件设置</param>
         /// <returns>返回写入结果，否则返回false</returns>
         public static bool Error(string text, string file = null, string dir = null)
@@ -215,12 +215,12 @@ namespace Z.Base.Log
         }
         #endregion
 
-        #region FATAL级别日志
+        #region 按FATAL级别记录日志
         /// <summary>
-        /// FATAL级别日志
+        /// 按FATAL级别记录日志
         /// </summary>
-        /// <param name="text">文本</param>
-        /// <param name="file">文件名:可以为空，默认使用日期格式</param>
+        /// <param name="text">日志文本</param>
+        /// <param name="file">文件名文本:可以为空，默认使用日期格式</param>
         /// <param name="dir">文件夹名称:可以为空，默认使用配置文件设置</param>
         /// <returns>返回写入结果，否则返回false</returns>
         public static bool Fatal(string text, string file = null, string dir = null)
@@ -229,12 +229,12 @@ namespace Z.Base.Log
         }
         #endregion
 
-        #region None级别日志
+        #region 按None级别记录日志
         /// <summary>
-        /// None级别日志
+        /// 按None级别记录日志
         /// </summary>
-        /// <param name="text">文本</param>
-        /// <param name="name">文件名:可以为空，默认使用日期格式</param>
+        /// <param name="text">日志文本</param>
+        /// <param name="name">文件名文本:可以为空，默认使用日期格式</param>
         /// <param name="files">文件夹名称:可以为空，默认使用配置文件设置</param>
         /// <returns>默认true</returns>
         public static bool None(string text, string file = null, string dir = null)
@@ -247,11 +247,11 @@ namespace Z.Base.Log
 
         #region private static function
 
-        #region 日志文件名称
+        #region 按名称获取日志文件名称
         /// <summary>
-        /// 日志文件名称
+        /// 按名称获取日志文件名称
         /// </summary>
-        /// <param name="name">文件名称</param>
+        /// <param name="name">文件名称文本</param>
         /// <returns>正常返回组合文件名称，如果参数异常或组合异常则返回日期格式名称</returns>
         private static string LogName(string name)
         {
@@ -268,13 +268,13 @@ namespace Z.Base.Log
         }
         #endregion
 
-        #region 创建日志文件
+        #region 按文件名和文件夹路径创建日志文件
         /// <summary>
-        /// 创建日志文件
+        /// 按文件名和文件夹路径创建日志文件
         /// </summary>
-        /// <param name="fileName">文件名:可以为空，默认使用日期格式</param>
+        /// <param name="fileName">文件名文本:可以为空，默认使用日期格式</param>
         /// <param name="dir">文件夹名称:可以为空，默认使用配置文件设置</param>
-        /// <returns>创建成功返回字符串，否则返回null</returns>
+        /// <returns>创建成功返回路径字符串，否则返回null</returns>
         private static string CreateLog(string fileName, string dir)
         {
             try
@@ -296,9 +296,9 @@ namespace Z.Base.Log
         }
         #endregion
 
-        #region 写入日志
+        #region 向日志文件写入日志文本
         /// <summary>
-        /// 写入日志
+        /// 向日志文件写入日志文本
         /// </summary>
         /// <param name="filePath">日志文件</param>
         /// <param name="text">文本</param>
@@ -327,14 +327,14 @@ namespace Z.Base.Log
         }
         #endregion
 
-        #region 根据日志级别写入日志
+        #region 按日志等级记录日志
         /// <summary>
-        /// 根据日志级别写入日志
+        /// 按日志等级记录日志
         /// </summary>
         /// <param name="text">文本</param>
-        /// <param name="file">文件名:可以为空，默认使用日期格式</param>
+        /// <param name="file">文件名文本:可以为空，默认使用日期格式</param>
         /// <param name="dir">文件夹名称:可以为空，默认使用配置文件设置</param>
-        /// <param name="level">日志级别</param>
+        /// <param name="level">日志等级</param>
         /// <returns>返回写入结果，否则返回false</returns>
         private static bool LogByLevel(string text, string file, string dir, LogLevel level)
         {

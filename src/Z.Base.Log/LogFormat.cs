@@ -7,7 +7,7 @@ using Z.Base.Utils;
 namespace Z.Base.Log
 {
     /// <summary>
-    /// 日志格式
+    /// 提供应用程序执行错误日志、信息日志、传输字节日志获取文本的静态方法
     /// </summary>
     /// <remarks>
     /// 作者：北冥冰皇
@@ -15,13 +15,13 @@ namespace Z.Base.Log
     /// </remarks>
     public static class LogFormat
     {
-        #region 异常日志格式
+        #region 按应用程序执行发生的错误获取日志文本
         /// <summary>
-        /// 异常日志格式
+        /// 按应用程序执行发生的错误获取日志文本
         /// </summary>
-        /// <param name="name">异常名称</param>
-        /// <param name="ex">异常对象</param>
-        /// <returns>异常字符串</returns>
+        /// <param name="name">错误名称</param>
+        /// <param name="ex">应用程序执行发生的错误对象</param>
+        /// <returns>日志文本</returns>
         public static string ErrorStr(string name, Exception ex)
         {
             StringBuilder sb = new StringBuilder();
@@ -44,12 +44,12 @@ namespace Z.Base.Log
         }
         #endregion
 
-        #region 信息日志格式
+        #region 按信息获取日志文本
         /// <summary>
-        /// 信息日志格式
+        /// 信息日志文本
         /// </summary>
-        /// <param name="txt"></param>
-        /// <returns></returns>
+        /// <param name="txt">信息文本</param>
+        /// <returns>日志文本</returns>
         public static string InfoStr(string txt)
         {
             if (txt == null)
@@ -58,13 +58,13 @@ namespace Z.Base.Log
         }
         #endregion
 
-        #region 通讯日志格式
+        #region 按传输的字节数组型获取日志文本
         /// <summary>
-        /// 通讯日志格式
+        /// 按传输的字节数组型获取日志文本
         /// </summary>
         /// <param name="cmd">命令名称</param>
         /// <param name="bytes">字节数组</param>
-        /// <returns>组合字符串</returns>
+        /// <returns>日志文本</returns>
         public static string CommStr(string cmd, byte[] bytes)
         {
             if (cmd == null)

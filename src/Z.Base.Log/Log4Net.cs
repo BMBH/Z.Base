@@ -8,7 +8,7 @@ using System.Text;
 namespace Z.Base.Log
 {
     /// <summary>
-    /// Log4Net 日志框架类
+    /// 提供Log4Net静态加载方法，Error等级的记录日志方法
     /// </summary>
     /// <remarks>
     /// 作者：北冥冰皇
@@ -26,20 +26,20 @@ namespace Z.Base.Log
 
         #region public static function
 
-        #region 初始化log4net
+        #region 加载Log4Net的config文件
         /// <summary>
-        /// 初始化log4net
+        /// 加载Log4Net的config文件
         /// </summary>
-        public static void InitLog4Net()
+        public static void LoadConfig()
         {
             var logCfg = new FileInfo(AppDomain.CurrentDomain.BaseDirectory + "log4net.config");
             log4net.Config.XmlConfigurator.ConfigureAndWatch(logCfg);
         }
         #endregion
 
-        #region Error级别日志
+        #region 按Error等级记录日志
         /// <summary>
-        /// Error级别日志
+        /// 按Error等级记录日志
         /// </summary>
         /// <param name="msg">信息</param>
         public static void Error(string msg)
@@ -48,9 +48,9 @@ namespace Z.Base.Log
         }
         #endregion
 
-        #region Error级别日志
+        #region 按Error等级记录日志
         /// <summary>
-        /// Error级别日志
+        /// 按Error等级记录日志
         /// </summary>
         /// <param name="msg">信息</param>
         /// <param name="ex">异常对象</param>

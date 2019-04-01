@@ -9,3 +9,4 @@ E:\Work\github\Z.Base\src\Z.Base.Utils\bin\Debug\Z.Base.Utils.pdb
 E:\Work\github\Z.Base\src\Z.Base.Utils\obj\Debug\Z.Base.Utils.csproj.CoreCompileInputs.cache
 E:\Work\github\Z.Base\src\Z.Base.Utils\obj\Debug\Z.Base.Utils.dll
 E:\Work\github\Z.Base\src\Z.Base.Utils\obj\Debug\Z.Base.Utils.pdb
+E:\Work\github\Z.Base\src\Z.Base.Utils\obj\Debug\Z.Base.Utils.csprojAssemblyReference.cache

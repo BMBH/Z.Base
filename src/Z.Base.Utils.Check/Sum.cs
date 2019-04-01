@@ -6,7 +6,7 @@ using System.Text;
 namespace Z.Base.Utils.Check
 {
     /// <summary>
-    /// 校验和计算
+    /// 提供字节数组校验和计算静态方法
     /// </summary>
     /// <remarks>
     /// 作者：北冥冰皇
@@ -14,9 +14,9 @@ namespace Z.Base.Utils.Check
     /// </remarks>
     public static class Sum
     {
-        #region 校验和计算Byte
+        #region 将指定数目的字节从起始于特定偏移量的源数组进行校验和计算
         /// <summary>
-        /// 校验和计算Byte
+        /// 将指定数目的字节从起始于特定偏移量的源数组进行校验和计算
         /// </summary>
         /// <param name="bytes">字节数组</param>
         /// <param name="offset">从零开始的字节偏移量</param>
@@ -44,9 +44,9 @@ namespace Z.Base.Utils.Check
         }
         #endregion
 
-        #region 校验和校验
+        #region 将指定数目的字节从起始于特定偏移量的源数组进行校验和校验
         /// <summary>
-        /// 校验和校验
+        /// 将指定数目的字节从起始于特定偏移量的源数组进行校验和校验
         /// </summary>
         /// <param name="bytes">字节数组</param>
         /// <param name="offset">从零开始的字节偏移量</param>

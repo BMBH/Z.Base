@@ -7,7 +7,7 @@ using System.Text;
 namespace Z.Base.Utils
 {
     /// <summary>
-    /// 字节与其他类型转换
+    /// 将基础数据类型与字节数组相互转换
     /// </summary>
     /// <remarks>
     /// 作者：北冥冰皇
@@ -17,9 +17,9 @@ namespace Z.Base.Utils
     {
         #region public static function
 
-        #region ushort
+        #region 返回由字节数组中指定位置的两个字节转换来的 16 位无符号整数
         /// <summary>
-        /// ushort
+        /// 返回由字节数组中指定位置的两个字节转换来的 16 位无符号整数
         /// </summary>
         /// <param name="bytes">字节数组</param>
         /// <param name="startIndex">bytes内的起始位置</param>
@@ -39,9 +39,9 @@ namespace Z.Base.Utils
         }
         #endregion
 
-        #region Int16
+        #region 返回由字节数组中指定位置的两个字节转换来的 16 位有符号整数
         /// <summary>
-        /// Int16
+        /// 返回由字节数组中指定位置的两个字节转换来的 16 位有符号整数
         /// </summary>
         /// <param name="bytes">字节数组</param>
         /// <param name="startIndex">bytes内的起始位置</param>
@@ -61,9 +61,9 @@ namespace Z.Base.Utils
         }
         #endregion
 
-        #region Long Inverse
+        #region Long Inverse 返回由字节数组中指定位置的四个字节转换来的 32 位有符号整数
         /// <summary>
-        /// Long Inverse
+        /// Long Inverse 返回由字节数组中指定位置的四个字节转换来的 32 位有符号整数
         /// </summary>
         /// <param name="bytes">字节数组</param>
         /// <param name="startIndex">bytes内的起始位置</param>
@@ -88,9 +88,9 @@ namespace Z.Base.Utils
         }
         #endregion
 
-        #region Float Inverse
+        #region Float Inverse 返回由字节数组中指定位置的四个字节转换来的单精度浮点数
         /// <summary>
-        /// Float Inverse
+        /// Float Inverse 返回由字节数组中指定位置的四个字节转换来的单精度浮点数
         /// </summary>
         /// <param name="bytes">字节数组</param>
         /// <param name="startIndex">bytes内的起始位置</param>
@@ -115,9 +115,9 @@ namespace Z.Base.Utils
         }
         #endregion
 
-        #region Float 1032
+        #region Float 1032 返回由字节数组中指定位置的四个字节转换来的单精度浮点数
         /// <summary>
-        /// Float 1032
+        /// Float 1032 返回由字节数组中指定位置的四个字节转换来的单精度浮点数
         /// </summary>
         /// <param name="bytes">字节数组</param>
         /// <returns>由四个字节构成、从 startIndex 开始的单精度浮点数</returns>
@@ -141,9 +141,9 @@ namespace Z.Base.Utils
         }
         #endregion
 
-        #region Float
+        #region 返回由字节数组中指定位置的四个字节转换来的单精度浮点数
         /// <summary>
-        /// Float
+        /// 返回由字节数组中指定位置的四个字节转换来的单精度浮点数
         /// </summary>
         /// <param name="bytes">字节数组</param>
         /// <returns>由四个字节构成、从 startIndex 开始的单精度浮点数</returns>
@@ -162,51 +162,51 @@ namespace Z.Base.Utils
         }
         #endregion
 
-        #region 十六进制Int
+        #region 将byte[]转换的十六进制格式的字符串，按十六进制转换为等效的 32 位有符号整数
         /// <summary>
-        /// 十六进制Int
+        /// 将byte[]转换的十六进制格式的字符串，按十六进制转换为等效的 32 位有符号整数
         /// </summary>
         /// <param name="bytes">字节数组</param>
-        /// <returns>正常返回十六进制int值，否则返回0</returns>
+        /// <returns>正常返回按十六进制转换为等效的 32 位有符号整数，否则返回-1</returns>
         public static int ToIntH(this byte[] bytes)
         {
             if (bytes == null)
-                return 0;
+                return -1;
             string str = bytes.ToStringH();
             if (string.IsNullOrEmpty(str))
-                return 0;
+                return -1;
             if (!str.IsHexadecimal())
-                return 0;
+                return -1;
             return int.Parse(str, NumberStyles.AllowHexSpecifier);
         }
         #endregion
 
-        #region 十进制Int
+        #region 将byte[]转换的十六进制格式的字符串，按十进制转换为等效的 32 位有符号整数
         /// <summary>
-        /// 十进制Int
+        /// 将byte[]转换的十六进制格式的字符串，按十进制转换为等效的 32 位有符号整数
         /// </summary>
         /// <param name="bytes">字节数组</param>
-        /// <returns>正常返回十进制int值，否则返回0</returns>
+        /// <returns>正常返回按十进制转换为等效的 32 位有符号整数，否则返回-1</returns>
         public static int ToIntD(this byte[] bytes)
         {
             if (bytes == null)
-                return 0;
+                return -1;
             string str = bytes.ToStringH();
             if (string.IsNullOrEmpty(str))
-                return 0;
+                return -1;
             if (!str.IsNumber())
-                return 0;
+                return -1;
             return int.Parse(str);
         }
         #endregion
 
-        #region 十六进制字符串
+        #region 使用十六进制格式将byte[]转换为 间隔字符串space 的字符串表示形式
         /// <summary>
-        /// 十六进制字符串
+        /// 使用十六进制格式将byte[]转换为 间隔字符串space 的字符串表示形式
         /// </summary>
         /// <param name="bytes">字节数组</param>
-        /// <param name="space">字符串间隔</param>
-        /// <returns>带间隔十六进制字符串</returns>
+        /// <param name="space">间隔字符串</param>
+        /// <returns>带间隔字符串的十六进制格式的字符串</returns>
         public static string ToStringH(this byte[] bytes, string space = "")
         {
             if (bytes == null)

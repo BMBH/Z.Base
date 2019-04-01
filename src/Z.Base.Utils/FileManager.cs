@@ -8,7 +8,7 @@ using System.Web;
 namespace Z.Base.Utils
 {
     /// <summary>
-    /// 文件管理类
+    /// 提供对本地文件和目录的管理
     /// </summary>
     /// <remarks>
     /// 作者：北冥冰皇
@@ -147,12 +147,12 @@ namespace Z.Base.Utils
 
         #region private static function
 
-        #region 上一级目录
+        #region 按 dir 获取上一级目录
         /// <summary>
-        /// 上一级目录
+        /// 按 dir 获取上一级目录
         /// </summary>  
         /// <param name="dir">路径</param>
-        /// <returns></returns>
+        /// <returns>目录文本</returns>
         private static string HigherDir(string dir)
         {
             string highdir = "";//上一级目录

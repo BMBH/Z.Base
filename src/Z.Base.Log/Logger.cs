@@ -247,9 +247,9 @@ namespace Z.Base.Log
 
         #region private static function
 
-        #region 按名称获取日志文件名称
+        #region 按 name 获取日志文件名称
         /// <summary>
-        /// 按名称获取日志文件名称
+        /// 按 name 获取日志文件名称
         /// </summary>
         /// <param name="name">文件名称文本</param>
         /// <returns>正常返回组合文件名称，如果参数异常或组合异常则返回日期格式名称</returns>
@@ -268,9 +268,9 @@ namespace Z.Base.Log
         }
         #endregion
 
-        #region 按文件名和文件夹路径创建日志文件
+        #region 按 fileName 和 dir 创建日志文件
         /// <summary>
-        /// 按文件名和文件夹路径创建日志文件
+        /// 按 fileName 和 dir 创建日志文件
         /// </summary>
         /// <param name="fileName">文件名文本:可以为空，默认使用日期格式</param>
         /// <param name="dir">文件夹名称:可以为空，默认使用配置文件设置</param>
@@ -296,9 +296,9 @@ namespace Z.Base.Log
         }
         #endregion
 
-        #region 向日志文件写入日志文本
+        #region 向 filePath 路径写入日志文本
         /// <summary>
-        /// 向日志文件写入日志文本
+        /// 向 filePath 路径写入日志文本
         /// </summary>
         /// <param name="filePath">日志文件</param>
         /// <param name="text">文本</param>
@@ -327,9 +327,9 @@ namespace Z.Base.Log
         }
         #endregion
 
-        #region 按日志等级记录日志
+        #region 按 LogLevel 向相关路径中记录日志
         /// <summary>
-        /// 按日志等级记录日志
+        /// 按 LogLevel 向相关路径中记录日志
         /// </summary>
         /// <param name="text">文本</param>
         /// <param name="file">文件名文本:可以为空，默认使用日期格式</param>

@@ -6,7 +6,7 @@ using System.Text;
 namespace Z.Base.Utils.Check
 {
     /// <summary>
-    /// CRC16计算类
+    /// 提供字节数组CRC16计算方法
     /// </summary>
     /// <remarks>
     /// 作者：北冥冰皇
@@ -17,9 +17,9 @@ namespace Z.Base.Utils.Check
 
         #region public static function
 
-        #region CRC16计算UInt(低位)
+        #region 将指定数目的字节从起始于特定偏移量的源数组进行CRC16计算，获取UInt值(低位)
         /// <summary>
-        /// CRC16计算UInt(低位)
+        /// 将指定数目的字节从起始于特定偏移量的源数组进行CRC16计算，获取UInt值(低位)
         /// </summary>
         /// <param name="bytes">字节数组</param>
         /// <param name="offset">从零开始的字节偏移量</param>
@@ -42,9 +42,9 @@ namespace Z.Base.Utils.Check
         }
         #endregion
 
-        #region CRC16计算UInt(高位)
+        #region 将指定数目的字节从起始于特定偏移量的源数组进行CRC16计算，获取UInt值(高位)
         /// <summary>
-        /// CRC16计算UInt(高位)
+        /// 将指定数目的字节从起始于特定偏移量的源数组进行CRC16计算，获取UInt值(高位)
         /// </summary>
         /// <param name="bytes">字节数组</param>
         /// <param name="offset">从零开始的字节偏移量</param>
@@ -65,9 +65,9 @@ namespace Z.Base.Utils.Check
         }
         #endregion
 
-        #region CRC16计算字节组(低位)
+        #region 将指定数目的字节从起始于特定偏移量的源数组进行CRC16计算，获取结果字节数组(低位)
         /// <summary>
-        /// CRC16计算字节组(低位)
+        /// 将指定数目的字节从起始于特定偏移量的源数组进行CRC16计算，获取结果字节数组(低位)
         /// </summary>
         /// <param name="bytes">字节数组</param>
         /// <param name="offset">从零开始的字节偏移量</param>
@@ -86,9 +86,9 @@ namespace Z.Base.Utils.Check
         }
         #endregion
 
-        #region CRC16计算字节组(高位)
+        #region 将指定数目的字节从起始于特定偏移量的源数组进行CRC16计算，获取结果字节数组(高位)
         /// <summary>
-        /// CRC16计算字节组(高位)
+        /// 将指定数目的字节从起始于特定偏移量的源数组进行CRC16计算，获取结果字节数组(高位)
         /// </summary>
         /// <param name="bytes">字节数组</param>
         /// <param name="offset">从零开始的字节偏移量</param>
@@ -107,9 +107,9 @@ namespace Z.Base.Utils.Check
         }
         #endregion
 
-        #region CRC16 循环冗余校验(低位)
+        #region 将指定数目的字节从起始于特定偏移量的源数组进行CRC16 循环冗余校验(低位)
         /// <summary>
-        /// CRC16 循环冗余校验(低位)
+        /// 将指定数目的字节从起始于特定偏移量的源数组进行CRC16 循环冗余校验(低位)
         /// Cyclic Redundancy Check
         /// </summary>
         /// <param name="bytes">字节数组</param>
@@ -134,9 +134,9 @@ namespace Z.Base.Utils.Check
         }
         #endregion
 
-        #region CRC16 循环冗余校验(高位)
+        #region 将指定数目的字节从起始于特定偏移量的源数组进行CRC16 循环冗余校验(高位)
         /// <summary>
-        /// CRC16 循环冗余校验(高位)
+        /// 将指定数目的字节从起始于特定偏移量的源数组进行CRC16 循环冗余校验(高位)
         /// Cyclic Redundancy Check
         /// </summary>
         /// <param name="bytes">字节数组</param>
@@ -228,9 +228,9 @@ namespace Z.Base.Utils.Check
 
             #region public function
 
-            #region  UInt16 CRC16计算(低位)
+            #region  将指定的byte[]按指定的长度usDataLen进行CRC16计算，获取UInt16值(低位)
             /// <summary>
-            /// UInt16 CRC16计算(低位)
+            /// 将指定的byte[]按指定的长度usDataLen进行CRC16计算，获取UInt16值(低位)
             /// </summary>
             /// <param name="puchMsg"></param>
             /// <param name="usDataLen"></param>
@@ -260,7 +260,7 @@ namespace Z.Base.Utils.Check
 
         #region private static function
         /// <summary>
-        /// UInt16 CRC16计算(高位)
+        /// 将指定的byte[]进行CRC16计算(高位)
         /// </summary>
         /// <param name="bytes"></param>
         /// <returns></returns>

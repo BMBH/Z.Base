@@ -8,7 +8,7 @@ using System.Text;
 namespace Z.Base.Utils
 {
     /// <summary>
-    /// config配置管理类
+    /// 提供对客户端应用程序配置文件的访问
     /// </summary>
     /// <remarks>
     /// 作者：北冥冰皇
@@ -109,13 +109,13 @@ namespace Z.Base.Utils
 
         #region private static function
 
-        #region 适用于特定计算机、应用程序或资源的配置文件
+        #region 按 fileName 和 dir 生成适用于特定计算机、应用程序或资源的配置文件操作的对象
         /// <summary>
-        /// 适用于特定计算机、应用程序或资源的配置文件
+        /// 按 fileName 和 dir 生成适用于特定计算机、应用程序或资源的配置文件操作的对象
         /// </summary>
         /// <param name="fileName">文件名称</param>
         /// <param name="dir">路径，默认""</param>
-        /// <returns>Configuration对象</returns>
+        /// <returns>表示适用于特定计算机、应用程序或资源的配置文件的对象实例</returns>
         private static Configuration Configuration(string fileName, string dir = "")
         {
             if (string.IsNullOrEmpty(fileName) || dir == null)

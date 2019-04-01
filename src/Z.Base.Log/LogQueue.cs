@@ -6,7 +6,7 @@ using System.Text;
 namespace Z.Base.Log
 {
     /// <summary>
-    /// 管理静态的日志队列
+    /// 管理静态的日志文本的队列
     /// </summary>
     /// <remarks>
     /// 作者：北冥冰皇

@@ -7,7 +7,7 @@ using Z.Base.Utils;
 namespace Z.Base.Log
 {
     /// <summary>
-    /// 提供应用程序执行错误日志、信息日志、传输字节日志获取文本的静态方法
+    /// 获取应用程序执行时错误日志、信息日志、传输字节日志的静态方法
     /// </summary>
     /// <remarks>
     /// 作者：北冥冰皇
@@ -15,9 +15,9 @@ namespace Z.Base.Log
     /// </remarks>
     public static class LogFormat
     {
-        #region 按应用程序执行发生的错误获取日志文本
+        #region 按应用程序执行时发生的错误获取日志文本
         /// <summary>
-        /// 按应用程序执行发生的错误获取日志文本
+        /// 按应用程序执行时发生的错误获取日志文本
         /// </summary>
         /// <param name="name">错误名称</param>
         /// <param name="ex">应用程序执行发生的错误对象</param>
@@ -46,7 +46,7 @@ namespace Z.Base.Log
 
         #region 按信息获取日志文本
         /// <summary>
-        /// 信息日志文本
+        /// 按信息获取日志文本
         /// </summary>
         /// <param name="txt">信息文本</param>
         /// <returns>日志文本</returns>

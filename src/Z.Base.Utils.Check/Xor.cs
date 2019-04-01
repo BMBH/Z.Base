@@ -6,7 +6,7 @@ using System.Text;
 namespace Z.Base.Utils.Check
 {
     /// <summary>
-    /// 异或计算类
+    /// 提供字节数组异或计算静态方法
     /// </summary>
     /// <remarks>
     /// 作者：北冥冰皇
@@ -14,9 +14,9 @@ namespace Z.Base.Utils.Check
     /// </remarks>
     public static class Xor
     {
-        #region exclusive OR
+        #region 将指定数目的字节从起始于特定偏移量的源数组进行异或计算
         /// <summary>
-        /// exclusive OR
+        /// 将指定数目的字节从起始于特定偏移量的源数组进行异或计算
         /// </summary>
         /// <param name="bytes">字节数组</param>
         /// <param name="offset">从零开始的字节偏移量</param>
@@ -42,9 +42,9 @@ namespace Z.Base.Utils.Check
         }
         #endregion
 
-        #region XOR校验
+        #region 将指定数目的字节从起始于特定偏移量的源数组进行异或校验
         /// <summary>
-        /// XOR校验
+        /// 将指定数目的字节从起始于特定偏移量的源数组进行异或校验
         /// </summary>
         /// <param name="bytes">字节数组</param>
         /// <param name="offset">从零开始的字节偏移量</param>

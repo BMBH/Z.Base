@@ -8,7 +8,7 @@ using System.Text;
 namespace Z.Base.Log
 {
     /// <summary>
-    /// 提供Log4Net静态加载方法，Error等级的记录日志方法
+    /// 提供Log4Net静态加载，Error等级的记录日志方法
     /// </summary>
     /// <remarks>
     /// 作者：北冥冰皇

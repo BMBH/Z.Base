@@ -36,3 +36,4 @@ E:\Work\github\Z.Base\test\Z.Base.Test.Utils\obj\Debug\Z.Base.Test.Utils.csproj.
 E:\Work\github\Z.Base\test\Z.Base.Test.Utils\obj\Debug\Z.Base.Test.Utils.csproj.CopyComplete
 E:\Work\github\Z.Base\test\Z.Base.Test.Utils\obj\Debug\Z.Base.Test.Utils.dll
 E:\Work\github\Z.Base\test\Z.Base.Test.Utils\obj\Debug\Z.Base.Test.Utils.pdb
+E:\Work\github\Z.Base\test\Z.Base.Test.Utils\bin\Debug\Z.Base.Test.Utils.dll.config

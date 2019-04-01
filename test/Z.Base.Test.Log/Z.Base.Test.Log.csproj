@@ -52,6 +52,7 @@
     <Compile Include="Log4NetTests.cs" />
     <Compile Include="LogFormatTests.cs" />
     <Compile Include="LoggerTests.cs" />
+    <Compile Include="LogQueueTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

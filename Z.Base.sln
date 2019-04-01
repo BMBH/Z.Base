@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z.Base.Test.Log", "test\Z.B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z.Base.Test.Utils", "test\Z.Base.Test.Utils\Z.Base.Test.Utils.csproj", "{6915541E-39D8-4F70-A47E-8A62D49B734A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z.Base.Test.Utils.Check", "test\Z.Base.Test.Utils.Check\Z.Base.Test.Utils.Check.csproj", "{5FD58F17-8113-4DCA-A769-466CAFA345B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{6915541E-39D8-4F70-A47E-8A62D49B734A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6915541E-39D8-4F70-A47E-8A62D49B734A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6915541E-39D8-4F70-A47E-8A62D49B734A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FD58F17-8113-4DCA-A769-466CAFA345B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FD58F17-8113-4DCA-A769-466CAFA345B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FD58F17-8113-4DCA-A769-466CAFA345B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FD58F17-8113-4DCA-A769-466CAFA345B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,6 +60,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C8B5771B-012F-49FF-B3AC-261D76DB0A61} = {F832FB8F-5698-4F5A-9A01-3AF134622020}
 		{6915541E-39D8-4F70-A47E-8A62D49B734A} = {F832FB8F-5698-4F5A-9A01-3AF134622020}
+		{5FD58F17-8113-4DCA-A769-466CAFA345B6} = {F832FB8F-5698-4F5A-9A01-3AF134622020}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {85F79387-2AF8-4C76-B279-E7C983BD2249}

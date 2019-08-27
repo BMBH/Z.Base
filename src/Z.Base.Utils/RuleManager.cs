@@ -27,15 +27,9 @@ namespace Z.Base.Utils
         {
             if (string.IsNullOrEmpty(str))
                 return false;
-            try
-            {
-                Regex reg = new Regex(@"^[A-Za-z0-9]+$");
-                return reg.IsMatch(str);
-            }
-            catch
-            {
-                return false;
-            }
+
+            Regex reg = new Regex(@"^[A-Za-z0-9]+$");
+            return reg.IsMatch(str);
         }
         #endregion
 
@@ -49,15 +43,9 @@ namespace Z.Base.Utils
         {
             if (string.IsNullOrEmpty(str))
                 return false;
-            try
-            {
-                Regex reg = new Regex(@"^[0-9]+$");
-                return reg.IsMatch(str);
-            }
-            catch
-            {
-                return false;
-            }
+            
+            Regex reg = new Regex(@"^[0-9]+$");
+            return reg.IsMatch(str);
         }
         #endregion
 
@@ -71,15 +59,9 @@ namespace Z.Base.Utils
         {
             if (string.IsNullOrEmpty(str))
                 return false;
-            try
-            {
-                Regex reg = new Regex(@"^[A-Za-z]+$");
-                return reg.IsMatch(str);
-            }
-            catch
-            {
-                return false;
-            }
+
+            Regex reg = new Regex(@"^[A-Za-z]+$");
+            return reg.IsMatch(str);
         }
         #endregion
 
@@ -93,15 +75,9 @@ namespace Z.Base.Utils
         {
             if (string.IsNullOrEmpty(str))
                 return false;
-            try
-            {
-                Regex reg = new Regex(@"^[A-Fa-f0-9]+$");
-                return reg.IsMatch(str);
-            }
-            catch
-            {
-                return false;
-            }
+            
+            Regex reg = new Regex(@"^[A-Fa-f0-9]+$");
+            return reg.IsMatch(str);
         }
         #endregion
 

@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -66,7 +66,7 @@ namespace Z.Base.Utils
         /// </summary>
         /// <param name="str">字符串</param>
         /// <returns>true/false</returns>
-        public static bool IsInt(this string str)
+        public static bool IsNumber(this string str)
         {
             return !str.IsEmpty() && Regex.IsMatch(str, @"^[+-]?\d*$");
         }

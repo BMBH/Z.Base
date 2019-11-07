@@ -29,7 +29,7 @@ namespace Z.Base.Utils
         {
             if (string.IsNullOrEmpty(dir) ||
                 string.IsNullOrEmpty(fileFullName) ||
-                !RuleManager.IsNumberOrLetter(dir))
+                !dir.IsNumberOrLetter())
                 return string.Empty;
 
             string baseDir = FileManager.CreateBaseDirectory(dir);
@@ -52,8 +52,8 @@ namespace Z.Base.Utils
             if (string.IsNullOrEmpty(dir) ||
                 string.IsNullOrEmpty(fileName) ||
                 string.IsNullOrEmpty(postfix) ||
-                !RuleManager.IsNumberOrLetter(dir) ||
-                !RuleManager.IsNumberOrLetter(postfix))
+                !dir.IsNumberOrLetter() ||
+                !postfix.IsNumberOrLetter())
                 return string.Empty;
 
             string fileFullName = string.Format("{0}.{1}", fileName, postfix);
@@ -70,7 +70,7 @@ namespace Z.Base.Utils
         public static string CreateBaseDirectory(string dirName)
         {
             if (string.IsNullOrEmpty(dirName) ||
-                !RuleManager.IsNumberOrLetter(dirName))
+                !dirName.IsNumberOrLetter())
                 return string.Empty;
 
             string dir = Path.Combine(FileManager.BaseDirectory(), dirName);

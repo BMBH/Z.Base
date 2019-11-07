@@ -46,7 +46,7 @@ namespace Z.Base.Test.Utils
             string str = "0fo";
             bool expected = false;
 
-            bool actual = RuleManager.IsHexadecimal(str);
+            bool actual = StringManager.IsHexadecimal(str);
             Assert.AreEqual(expected, actual);
             //Assert.Inconclusive("验证此测试方法的正确性。");
         }
@@ -65,7 +65,7 @@ namespace Z.Base.Test.Utils
             string str = "aa12";
             bool expected = false;
 
-            bool actual = RuleManager.IsLetter(str);
+            bool actual = StringManager.IsLetter(str);
             Assert.AreEqual(expected, actual);
             //Assert.Inconclusive("验证此测试方法的正确性。");
         }
@@ -84,7 +84,7 @@ namespace Z.Base.Test.Utils
             string str = "abc123";
             bool expected = false;
 
-            bool actual = RuleManager.IsNumber(str);
+            bool actual = StringManager.IsNumber(str);
             Assert.AreEqual(expected, actual);
             //Assert.Inconclusive("验证此测试方法的正确性。");
         }
@@ -103,7 +103,7 @@ namespace Z.Base.Test.Utils
             string str = "a1.";
             bool expected = false;
 
-            bool actual = RuleManager.IsNumberOrLetter(str);
+            bool actual = StringManager.IsNumberOrLetter(str);
             Assert.AreEqual(expected, actual);
             //Assert.Inconclusive("验证此测试方法的正确性。");
         }

@@ -284,7 +284,7 @@ namespace Z.Base.Log
                 string logName = Logger.LogName(fileName);//组合文件名
                 string postfix = Logger.Postfix;//文件名后缀
 
-                if (!Utils.RuleManager.IsNumberOrLetter(dir) || !Utils.RuleManager.IsNumberOrLetter(postfix))
+                if (!Utils.StringManager.IsNumberOrLetter(dir) || !Utils.StringManager.IsNumberOrLetter(postfix))
                     return null;//判断名称是否合法
 
                 return Utils.FileManager.CreateBaseFile(dir, logName, postfix);//创建文件，返回文件路径

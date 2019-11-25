@@ -13,7 +13,6 @@ E:\Work\github\Z.Base\test\Z.Base.Test.Utils.Check\bin\Debug\Z.Base.Utils.Check.
 E:\Work\github\Z.Base\test\Z.Base.Test.Utils.Check\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 E:\Work\github\Z.Base\test\Z.Base.Test.Utils.Check\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 E:\Work\github\Z.Base\test\Z.Base.Test.Utils.Check\obj\Debug\Z.Base.Test.Utils.Check.csprojAssemblyReference.cache
-E:\Work\github\Z.Base\test\Z.Base.Test.Utils.Check\obj\Debug\Z.Base.Test.Utils.Check.csproj.CoreCompileInputs.cache
 E:\Work\github\Z.Base\test\Z.Base.Test.Utils.Check\obj\Debug\Z.Base.Test.Utils.Check.csproj.CopyComplete
 E:\Work\github\Z.Base\test\Z.Base.Test.Utils.Check\obj\Debug\Z.Base.Test.Utils.Check.dll
 E:\Work\github\Z.Base\test\Z.Base.Test.Utils.Check\obj\Debug\Z.Base.Test.Utils.Check.pdb

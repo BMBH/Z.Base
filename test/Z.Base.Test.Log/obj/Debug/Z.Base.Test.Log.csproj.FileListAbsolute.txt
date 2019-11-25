@@ -38,7 +38,6 @@ E:\Work\github\Z.Base\test\Z.Base.Test.Log\bin\Debug\Microsoft.VisualStudio.Test
 E:\Work\github\Z.Base\test\Z.Base.Test.Log\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 E:\Work\github\Z.Base\test\Z.Base.Test.Log\bin\Debug\Z.Base.Utils.pdb
 E:\Work\github\Z.Base\test\Z.Base.Test.Log\obj\Debug\Z.Base.Test.Log.csprojAssemblyReference.cache
-E:\Work\github\Z.Base\test\Z.Base.Test.Log\obj\Debug\Z.Base.Test.Log.csproj.CoreCompileInputs.cache
 E:\Work\github\Z.Base\test\Z.Base.Test.Log\obj\Debug\Z.Base.Test.Log.csproj.CopyComplete
 E:\Work\github\Z.Base\test\Z.Base.Test.Log\obj\Debug\Z.Base.Test.Log.dll
 E:\Work\github\Z.Base\test\Z.Base.Test.Log\obj\Debug\Z.Base.Test.Log.pdb

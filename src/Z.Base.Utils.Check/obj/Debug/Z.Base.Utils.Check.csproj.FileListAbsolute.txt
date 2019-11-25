@@ -6,6 +6,5 @@ D:\GitHub\Z.Base\src\Z.Base.Utils.Check\obj\Debug\Z.Base.Utils.Check.pdb
 D:\GitHub\Z.Base\src\Z.Base.Utils.Check\obj\Debug\Z.Base.Utils.Check.csprojAssemblyReference.cache
 E:\Work\github\Z.Base\src\Z.Base.Utils.Check\bin\Debug\Z.Base.Utils.Check.dll
 E:\Work\github\Z.Base\src\Z.Base.Utils.Check\bin\Debug\Z.Base.Utils.Check.pdb
-E:\Work\github\Z.Base\src\Z.Base.Utils.Check\obj\Debug\Z.Base.Utils.Check.csproj.CoreCompileInputs.cache
 E:\Work\github\Z.Base\src\Z.Base.Utils.Check\obj\Debug\Z.Base.Utils.Check.dll
 E:\Work\github\Z.Base\src\Z.Base.Utils.Check\obj\Debug\Z.Base.Utils.Check.pdb

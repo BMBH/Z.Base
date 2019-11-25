@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="BitConvert.cs" />
     <Compile Include="ConfigManager.cs" />
+    <Compile Include="EnumManager.cs" />
     <Compile Include="FileManager.cs" />
     <Compile Include="Parser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -14,7 +14,6 @@ E:\Work\github\Z.Base\src\Z.Base.Log\bin\Debug\log4net.dll
 E:\Work\github\Z.Base\src\Z.Base.Log\bin\Debug\Z.Base.Utils.dll
 E:\Work\github\Z.Base\src\Z.Base.Log\bin\Debug\Z.Base.Utils.pdb
 E:\Work\github\Z.Base\src\Z.Base.Log\obj\Debug\Z.Base.Log.csprojAssemblyReference.cache
-E:\Work\github\Z.Base\src\Z.Base.Log\obj\Debug\Z.Base.Log.csproj.CoreCompileInputs.cache
 E:\Work\github\Z.Base\src\Z.Base.Log\obj\Debug\Z.Base.Log.csproj.CopyComplete
 E:\Work\github\Z.Base\src\Z.Base.Log\obj\Debug\Z.Base.Log.dll
 E:\Work\github\Z.Base\src\Z.Base.Log\obj\Debug\Z.Base.Log.pdb

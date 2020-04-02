@@ -17,3 +17,12 @@ E:\Work\github\Z.Base\src\Z.Base.Log\obj\Debug\Z.Base.Log.csprojAssemblyReferenc
 E:\Work\github\Z.Base\src\Z.Base.Log\obj\Debug\Z.Base.Log.csproj.CopyComplete
 E:\Work\github\Z.Base\src\Z.Base.Log\obj\Debug\Z.Base.Log.dll
 E:\Work\github\Z.Base\src\Z.Base.Log\obj\Debug\Z.Base.Log.pdb
+E:\Work\G-Git\github\Z.Base\src\Z.Base.Log\bin\Debug\Z.Base.Log.dll
+E:\Work\G-Git\github\Z.Base\src\Z.Base.Log\bin\Debug\Z.Base.Log.pdb
+E:\Work\G-Git\github\Z.Base\src\Z.Base.Log\bin\Debug\log4net.dll
+E:\Work\G-Git\github\Z.Base\src\Z.Base.Log\bin\Debug\Z.Base.Utils.dll
+E:\Work\G-Git\github\Z.Base\src\Z.Base.Log\bin\Debug\Z.Base.Utils.pdb
+E:\Work\G-Git\github\Z.Base\src\Z.Base.Log\obj\Debug\Z.Base.Log.csprojAssemblyReference.cache
+E:\Work\G-Git\github\Z.Base\src\Z.Base.Log\obj\Debug\Z.Base.Log.csproj.CopyComplete
+E:\Work\G-Git\github\Z.Base\src\Z.Base.Log\obj\Debug\Z.Base.Log.dll
+E:\Work\G-Git\github\Z.Base\src\Z.Base.Log\obj\Debug\Z.Base.Log.pdb

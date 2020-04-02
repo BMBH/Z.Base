@@ -27,3 +27,17 @@ E:\Work\github\Z.Base\src\Z.Base\obj\Debug\Z.Base.csprojAssemblyReference.cache
 E:\Work\github\Z.Base\src\Z.Base\obj\Debug\Z.Base.csproj.CopyComplete
 E:\Work\github\Z.Base\src\Z.Base\obj\Debug\Z.Base.dll
 E:\Work\github\Z.Base\src\Z.Base\obj\Debug\Z.Base.pdb
+E:\Work\G-Git\github\Z.Base\src\Z.Base\bin\Debug\Z.Base.xml
+E:\Work\G-Git\github\Z.Base\src\Z.Base\bin\Debug\Z.Base.dll
+E:\Work\G-Git\github\Z.Base\src\Z.Base\bin\Debug\Z.Base.pdb
+E:\Work\G-Git\github\Z.Base\src\Z.Base\bin\Debug\Z.Base.Log.dll
+E:\Work\G-Git\github\Z.Base\src\Z.Base\bin\Debug\Z.Base.Utils.Check.dll
+E:\Work\G-Git\github\Z.Base\src\Z.Base\bin\Debug\Z.Base.Utils.dll
+E:\Work\G-Git\github\Z.Base\src\Z.Base\bin\Debug\log4net.dll
+E:\Work\G-Git\github\Z.Base\src\Z.Base\bin\Debug\Z.Base.Log.pdb
+E:\Work\G-Git\github\Z.Base\src\Z.Base\bin\Debug\Z.Base.Utils.Check.pdb
+E:\Work\G-Git\github\Z.Base\src\Z.Base\bin\Debug\Z.Base.Utils.pdb
+E:\Work\G-Git\github\Z.Base\src\Z.Base\obj\Debug\Z.Base.csprojAssemblyReference.cache
+E:\Work\G-Git\github\Z.Base\src\Z.Base\obj\Debug\Z.Base.csproj.CopyComplete
+E:\Work\G-Git\github\Z.Base\src\Z.Base\obj\Debug\Z.Base.dll
+E:\Work\G-Git\github\Z.Base\src\Z.Base\obj\Debug\Z.Base.pdb
